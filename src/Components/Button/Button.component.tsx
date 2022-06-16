@@ -1,5 +1,5 @@
 import { ButtonProps } from './Button.props';
-import { OutlineStyledButton, StyledButton } from './Button.styled';
+import { StyledButton } from './Button.styled';
 
 const Button: React.FC<ButtonProps> = (props) => {
   return (
