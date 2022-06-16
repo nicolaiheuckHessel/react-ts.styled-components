@@ -2,5 +2,6 @@ import React from 'react';
 
 export type ButtonProps = {
   children: React.ReactNode
-  bootstrapColor?: 'danger' | 'success'
+  bootstrapColor?: 'danger' | 'success' | "dark" | "primary"
 };
+
